@@ -164,88 +164,15 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>1081.500000:406.000000</string>
+				<string>441.500000:406.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.1.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict/>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Selected Finder Items 2.action</string>
-				<key>ActionName</key>
-				<string>Get Selected Finder Items</string>
-				<key>ActionParameters</key>
-				<dict/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Get_Selected_Finder_Items_2</string>
-				<key>CFBundleVersion</key>
-				<string>2.1.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMGetSelectedFinderItemsAction</string>
-				<key>InputUUID</key>
-				<string>3C20F5CE-3A94-4AF8-B3DB-B8CBBFAFE74B</string>
-				<key>Keywords</key>
-				<array/>
-				<key>OutputUUID</key>
-				<string>C850C5F4-C89C-4F1D-A209-698385BB1D6C</string>
-				<key>UUID</key>
-				<string>0260201F-A794-4B37-A304-3C1B48A60F39</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -304,7 +231,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -347,12 +274,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>1081.500000:758.000000</string>
+				<string>441.500000:692.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -454,8 +379,6 @@ done</string>
 				<string>64F7511B-BF95-499D-8CB5-12C864A196EC</string>
 				<key>ShowWhenRun</key>
 				<false/>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD</string>
 				<key>UnlocalizedApplications</key>
@@ -533,7 +456,7 @@ done</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>1081.500000:941.000000</string>
+				<string>441.500000:1055.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -624,8 +547,6 @@ done</string>
 				<array/>
 				<key>OutputUUID</key>
 				<string>7C4988DE-3319-4546-AFA3-1D037BA60D20</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>3C2A0C54-6D5C-4721-97F5-184C6EB74081</string>
 				<key>UnlocalizedApplications</key>
@@ -677,7 +598,7 @@ done</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>1081.500000:1131.000000</string>
+				<string>441.500000:1245.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -687,33 +608,26 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2CD27A8C-15AD-4A30-A5E2-CB1137896A23</key>
-		<dict>
-			<key>from</key>
-			<string>6B37A536-C1EE-4717-B7EA-5F758EAC5770 - 6B37A536-C1EE-4717-B7EA-5F758EAC5770</string>
-			<key>to</key>
-			<string>8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD - 8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD</string>
-		</dict>
-		<key>62D76769-9512-44FF-8265-0FD08D2F83BF</key>
+		<key>20CCDBDB-993F-4641-88B2-522969DD66E3</key>
 		<dict>
 			<key>from</key>
 			<string>8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD - 8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD</string>
 			<key>to</key>
 			<string>3C2A0C54-6D5C-4721-97F5-184C6EB74081 - 3C2A0C54-6D5C-4721-97F5-184C6EB74081</string>
 		</dict>
-		<key>9EDE74CD-74D5-40DD-B10D-60D988CF7386</key>
+		<key>85DDD60C-C547-4797-9333-1E3769DF2C71</key>
 		<dict>
 			<key>from</key>
-			<string>0260201F-A794-4B37-A304-3C1B48A60F39 - 0260201F-A794-4B37-A304-3C1B48A60F39</string>
-			<key>to</key>
 			<string>6B37A536-C1EE-4717-B7EA-5F758EAC5770 - 6B37A536-C1EE-4717-B7EA-5F758EAC5770</string>
+			<key>to</key>
+			<string>8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD - 8568D3D9-3FF1-4B8D-9DC3-8A27A610E2DD</string>
 		</dict>
-		<key>D943F6DF-7E1C-4F92-B2F5-93D4FAC27CB9</key>
+		<key>C7A4F29E-6885-49C2-A4F8-5122CD1C15C6</key>
 		<dict>
 			<key>from</key>
 			<string>67FFD5BE-A2C6-4FE3-8249-A6932E18BAFE - 67FFD5BE-A2C6-4FE3-8249-A6932E18BAFE</string>
 			<key>to</key>
-			<string>0260201F-A794-4B37-A304-3C1B48A60F39 - 0260201F-A794-4B37-A304-3C1B48A60F39</string>
+			<string>6B37A536-C1EE-4717-B7EA-5F758EAC5770 - 6B37A536-C1EE-4717-B7EA-5F758EAC5770</string>
 		</dict>
 	</dict>
 	<key>variables</key>
